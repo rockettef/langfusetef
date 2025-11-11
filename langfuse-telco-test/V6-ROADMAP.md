@@ -110,9 +110,5 @@ Migration plan (step-by-step)
 7. Add background evaluator worker or simple in-process async evaluator.
 8. Iterate on streaming and human handoff features.
 
-Estimate & next steps
----------------------
-- Minimal PoC (CLI + ConversationManager + Langfuse wrapper + unit tests): 1–2 days.
-- Full server + worker + integration tests: 2–4 days depending on work distribution and CI setup.
 
-If you want, I can scaffold the initial module files and a CLI runner now (small PoC). Tell me whether you prefer a CLI PoC or a small FastAPI server scaffold first.
+
